@@ -1,0 +1,11 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-purple-900 {
+    background-color: #5A189A;
+}
+
+.btn-purple-900:hover {
+    background-color: #3A0D66;
+}
