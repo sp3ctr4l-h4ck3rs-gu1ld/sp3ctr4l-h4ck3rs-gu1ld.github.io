@@ -113,18 +113,7 @@ Formspree procesa el formulario y envía los datos al correo electrónico config
 
 ---
 
-## 6. Publicación en GitHub Pages
-
-### 6.1. Configuración de GitHub Pages
-
-- Crea un repositorio en GitHub con el nombre usuario.github.io.
-- Sube los archivos a la rama main.
-- Ve a Settings > Pages y selecciona la rama main para activar GitHub Pages.
-- El sitio estará disponible en `https://usuario.github.io/`.
-
----
-
-## 7. Mantenimiento y Escalabilidad
+## 6. Mantenimiento y Escalabilidad
 
 - **Nuevas Páginas:** Para añadir nuevas páginas, crea un nuevo archivo HTML y enlázalo en el menú de navegación.
-- **Documentos PDF:** Los nuevos documentos pueden añadirse a la carpeta `/docs`  y enlazarse desde la página `pdfs.html`.
+- **Documentos PDF:** Los nuevos documentos pueden añadirse a la carpeta `/Docs/file=/PDF`  y enlazarse desde la página `docs.html`.
