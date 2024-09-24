@@ -29,7 +29,7 @@ El proyecto sigue la siguiente estructura de archivos y carpetas:
     / (Raíz del Repositorio)
     ├── index.html              # Página principal
     ├── learning.html           # Página de Aprendizaje
-    ├── pdfs.html               # Página de PDFs
+    ├── docs.html               # Página de PDFs
     ├── /Docs                   # Carpeta para los documentos PDF
     |   └── /file=
     |       └── /PDF
@@ -45,7 +45,7 @@ El proyecto sigue la siguiente estructura de archivos y carpetas:
 
 - **index.html**: Página principal del sitio con información general sobre el club.
 - **learning.html**: Página de recursos educativos.
-- **pdfs.html**: Página donde los usuarios pueden descargar documentos PDF.
+- **docs.html**: Página donde los usuarios pueden descargar documentos PDF.
 - **styles.css**: Archivo CSS personalizado para ajustes de diseño.
 - **/Docs/file=/PDF**: Carpeta que contiene los archivos PDF disponibles para descarga.
 - **/img**: Carpeta para imágenes, incluyendo el favicon del sitio.
@@ -69,7 +69,7 @@ El proyecto sigue la siguiente estructura de archivos y carpetas:
 - **Objetivo**: Ofrecer tutoriales y recursos educativos sobre hacking ético y ciberseguridad.
 - **Contenido**: Listado de guías y recursos para el aprendizaje, con enlaces a tutoriales.
 
-### 3.3. Página de PDFs (`pdfs.html`)
+### 3.3. Página de PDFs (`docs.html`)
 
 - **Objetivo**: Permitir la descarga de documentos PDF.
 - **Contenido**: Listado de archivos PDF con enlaces de descarga directa desde la carpeta `/Docs/file=/PDF`.
