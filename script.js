@@ -5,18 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var footer = document.querySelector('footer');
     var lastScrollTop = 0;
 
-    function toggleNavMenu() {
-        var nav = document.getElementById('mainNav');
-        if (nav.style.display === 'block') {
-            nav.style.display = 'none';
-        } else {
-            nav.style.display = 'block';
-        }
-    }
-
     function showSection(sectionId) {
         sections.forEach(function (section) {
-            section.style.display = (section.id === sectionId) ? 'block' : 'none';
+            section.classList.remove('show');
+            if (section.id === sectionId) {
+                setTimeout(() => section.classList.add('show'), 100);
+            }
         });
     }
 
@@ -24,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
         var sectionId = event.target.getAttribute('href').substring(1);
         showSection(sectionId);
-        toggleNavMenu(); 
     }
 
     function handleScroll() {
@@ -43,8 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
         lastScrollTop = scrollPosition;
     }
 
-    window.addEventListener('scroll', handleScroll);
+    showSection('Introducción');
 
+    window.addEventListener('scroll', handleScroll);
     navLinks.forEach(function (link) {
         link.addEventListener('click', handleNavClick);
     });
